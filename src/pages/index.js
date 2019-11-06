@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import cherryBlossom from '../assets/images/cherryBlossom.jpg'
+import columns from '../assets/images/columns.jpg'
+import irelandTrees from '../assets/images/irelandTrees.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
@@ -29,21 +29,21 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${cherryBlossom})`}}>
                             <header className="major">
                                 <h3>About Me Now</h3>
                                 <p>Learn what it like to work with me</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${columns})`}}>
                             <header className="major">
                                 <h3>My Other Life</h3>
                                 <p>Professional Experience Before software development</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${irelandTrees})`}}>
                             <header className="major">
                                 <h3>Code Style</h3>
                                 <p>What I love about software development and my coding philospies</p>
