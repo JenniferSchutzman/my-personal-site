@@ -37,14 +37,14 @@ class HomeIndex extends React.Component {
                 <h3>My Other Life</h3>
                 <p>Professional Experience Before software development</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/formerLife" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${columns})` }}>
               <header className="major">
                 <h3>About Me Now</h3>
                 <p>Learn who I am and what it like to work with me</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/aboutMe" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${theranchfields})` }}>
               <header className="major">
