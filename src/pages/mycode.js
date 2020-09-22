@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
+import '../assets/css/addons.css'
+
 import tallo from '../assets/images/tallo.jpg'
 import gotcha from '../assets/images/gotcha.png'
 import vizbii from '../assets/images/vizbii.png'
@@ -64,6 +66,13 @@ const Landing = props => (
                   <Link className="button">
                     <a href="https://app.tallo.com/register">
                       Create a free Tallo account to see the app I work on
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="button button-spacing">
+                    <a href="https://github.com/STEMPremier/celula">
+                      See the UI kit where I created dozens of components
                     </a>
                   </Link>
                 </li>
