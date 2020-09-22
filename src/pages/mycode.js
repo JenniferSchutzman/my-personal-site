@@ -10,6 +10,8 @@ import tallo from '../assets/images/tallo.jpg'
 import gotcha from '../assets/images/gotcha.png'
 import vizbii from '../assets/images/vizbii.png'
 import fountain from '../assets/images/fountain.jpeg'
+import reactHooks from '../assets/images/reactHooks.png'
+import github from '../assets/images/github.jpeg'
 
 const Landing = props => (
   <Layout>
@@ -202,6 +204,58 @@ const Landing = props => (
                   <Link className="button">
                     <a href="https://www.harborec.com/jrs-coding-school">
                       Click here to learn more about the coding bootcamp
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <Link className="image">
+            <img src={reactHooks} alt="React Hooks" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>
+                  React Hooks
+                </h3>
+              </header>
+              <p>
+                This past year I created a demo on React hooks and presented it the CTO and Senior Dev.  We soon after implementented hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link className="button">
+                    <a href="https://github.com/JenniferSchutzman/hooks-practice">
+                      Check out the react hooks demo
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <Link className="image">
+            <img src={github} alt="Github" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>
+                  Github
+                </h3>
+              </header>
+              <p>
+                While the majority of my code is proprietary, you can still see the regular activity and professional flow of commits.  This January will mark 3 years of daily professional coding.
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link className="button">
+                    <a href="https://github.com/JenniferSchutzman">
+                      My github page
                     </a>
                   </Link>
                 </li>
