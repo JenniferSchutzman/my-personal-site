@@ -10,11 +10,6 @@ import columns from '../assets/images/columns.jpg'
 import irelandTownInWoods from '../assets/images/irelandTownInWoods.jpg'
 import parqueTyrona from '../assets/images/parqueTyrona.jpg'
 import theranchfields from '../assets/images/theranchfields.jpg'
-//import waterfall from '../assets/images/waterfall.jpg'
-
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -42,7 +37,7 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${columns})` }}>
               <header className="major">
                 <h3>About Me Now</h3>
-                <p>Learn who I am and what it like to work with me</p>
+                <p>Who I am and what it's like to work with me</p>
               </header>
               <Link to="/aboutMe" className="link primary"></Link>
             </article>
@@ -53,35 +48,14 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/mycode" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${books})` }}>
-              <header className="major">
-                <h3>Code Style</h3>
-                <p>
-                  What I love about software development and my coding
-                  philospies
-                </p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
             <article style={{ backgroundImage: `url(${parqueTyrona})` }}>
               <header className="major">
-                <h3>Women in Tech Mentoring Program</h3>
+                <h3>Tech community</h3>
                 <p>
-                  Check out upcoming activities Women in Tech Mentoring Program
-                  and join us!
+                  Learn about the CHS Women Devs group I started and also the Women in Tech Mentoring Program I resuscitated back to life.
                 </p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${irelandTownInWoods})` }}>
-              <header className="major">
-                <h3>CHS Women Devs</h3>
-                <p>
-                  Learn more about the group I started for female software
-                  engineers in the Charleston Area
-                </p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/womenDevs" className="link primary"></Link>
             </article>
           </section>
         </div>

@@ -12,31 +12,19 @@ import vizbii from '../assets/images/vizbii.png'
 import fountain from '../assets/images/fountain.jpeg'
 import reactHooks from '../assets/images/reactHooks.png'
 import github from '../assets/images/github.jpeg'
+import JRS from '../assets/images/JRS.png'
 
 const Landing = props => (
   <Layout>
     <Helmet>
       <title>Jenny Schutzman's Code</title>
-      {/* <meta name="description" content="Landing Page" /> */}
     </Helmet>
-
-    {/* <BannerLanding /> */}
-
     <div id="main">
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Professional and personal coding experience</h2>
+            <h1>Professional and personal coding experience</h1>
           </header>
-          <p>
-            Not sure what to say here. Will ask for David's help. Nullam et orci
-            eu lorem consequat tincidunt vivamus et sagittis magna sed nunc
-            rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas
-            massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu
-            lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et
-            orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc
-            rhoncus condimentum sem. In efficitur ligula tate urna.
-          </p>
         </div>
       </section>
       <section id="two" className="spotlights">
@@ -55,8 +43,8 @@ const Landing = props => (
                 For the past 2 years I've been a Full Stack Software Engineer at
                 the Mount Pleasant based tech company Tallo. On a team with 5
                 other developers, we maintain the Tallo tech product from back
-                to front for over one million users. Main highlights of my
-                direct involvement include: took part in complete resign of the
+                to front for millions of users. Main highlights of my
+                direct involvement include: took part in complete redesign of the
                 Tallo app profile functionality utlizing AngularJS, Java, MySQL
                 and LESS; personally created dozens of React components for the
                 new ui kit; central in the transition to React Hooks; and
@@ -90,7 +78,7 @@ const Landing = props => (
             <div className="inner">
               <header className="major">
                 <h3>
-                  Gotcha (best known locally for hosting Holy Spokes Bike Share)
+                  Gotcha (Holy Spokes Bike Share)
                 </h3>
               </header>
               <p>
@@ -109,7 +97,7 @@ const Landing = props => (
                 <li>
                   <Link className="button">
                     <a href="https://ridegotcha.com/">
-                      Click here to see the marketing website I built
+                      View the marketing website I built
                     </a>
                   </Link>
                 </li>
@@ -128,14 +116,14 @@ const Landing = props => (
               </header>
               <p>
                 My first full-time contract after code camp was for another
-                local company in downtown Charleston called Vizbii. I was that
+                local company in downtown Charleston called Vizbii. I was with that
                 team for 5 months on a temporary full-time contract. There I
                 built the front-end of the their new admin app, along with a
                 couple of other tiny things. Utilizing AuthO, React, Redux, CSS,
                 Axios, and more, I was the sole front-end developer on the admin
-                app. Personal highlights for me at this project was getting to
+                app. Personal highlights for me at this project were getting to
                 plug in Auth0, working with styled React components for the
-                first time, and developing my React skills forform management
+                first time, and developing my React skills form management
                 and lots of API calls. Unfortunately the client admin app is not
                 publicly accessible, but click below to learn more about this
                 ground-breaking company. (I believe the company now just goes by
@@ -145,7 +133,7 @@ const Landing = props => (
                 <li>
                   <Link className="button">
                     <a href="https://morphii.com/">
-                      Click here to check out Morphii
+                      Check out Morphii
                     </a>
                   </Link>
                 </li>
@@ -165,7 +153,7 @@ const Landing = props => (
               <p>
                 At the end of code camp, each student was responsible for
                 building their own app from back to front utilizing
-                CouchDB/PouchDB, React, and Redux. I also choose to use Materia
+                CouchDB/PouchDB, React, and Redux. I also chose to use Material
                 UI. In those last 2 weeks I worked completely by myself to
                 create this "Charleston Tour Finder App". I've recentely updated
                 the code using hooks. I also converted the DB to a fake api
@@ -180,7 +168,7 @@ const Landing = props => (
                 <li>
                   <Link className="button">
                     <a href="https://github.com/JenniferSchutzman/tour-planner-clean">
-                      Click here to view my code for the Charleston Tour Finder
+                      View my code for the Charleston Tour Finder
                       app demo
                     </a>
                   </Link>
@@ -191,19 +179,19 @@ const Landing = props => (
         </section>
         <section>
           <Link className="image">
-            <img src={fountain} alt="Pineapple Park Fountain" />
+            <img src={JRS} alt="Jack Russell Software logo" />
           </Link>
           <div className="content">
             <div className="inner">
               <header className="major">
                 <h3>Jack Russell Software</h3>
               </header>
-              <p>Decribe here</p>
+              <p>Under Tom Wilson's and Trip Ottinger's leadership, I attended the 3 month code bootcamp in Shem Creek.  In this fullstack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI and much more!  </p>
               <ul className="actions">
                 <li>
                   <Link className="button">
                     <a href="https://www.harborec.com/jrs-coding-school">
-                      Click here to learn more about the coding bootcamp
+                      Learn more about the coding bootcamp
                     </a>
                   </Link>
                 </li>
@@ -224,12 +212,22 @@ const Landing = props => (
               </header>
               <p>
                 This past year I created a demo on React hooks and presented it the CTO and Senior Dev.  We soon after implementented hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
+
+
               </p>
+              <p>I also created a second more intermediate demo and presented in live on zoom to the CHS Women Devs group in December of 2020. </p>
               <ul className="actions">
                 <li>
                   <Link className="button">
                     <a href="https://github.com/JenniferSchutzman/hooks-practice">
-                      Check out the react hooks demo
+                      Check out the basic intro to react hooks demo
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="button button-spacing">
+                    <a href="https://github.com/JenniferSchutzman/live-coding-demo-to-share">
+                      Check out the "Helpful Hooks" live coding demo
                     </a>
                   </Link>
                 </li>

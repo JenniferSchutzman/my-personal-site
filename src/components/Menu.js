@@ -12,36 +12,19 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/landing">
+          <Link onClick={props.onToggleMenu} to="/aboutMe">
             About Me
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/generic">
+          <Link onClick={props.onToggleMenu} to="/mycode">
             Software Experience
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/elements">
-            CHS Women Devs
+          <Link onClick={props.onToggleMenu} to="/womenDevs">
+            Tech Community
           </Link>
-        </li>
-        <li>
-          <Link onClick={props.onToggleMenu} to="/elements">
-            Charleston Women in Tech Mentoring Program 2019 - 2020
-          </Link>
-        </li>
-      </ul>
-      <ul className="actions vertical">
-        <li>
-          <a href="/#" className="button special fit">
-            Get Started
-          </a>
-        </li>
-        <li>
-          <a href="/#" className="button fit">
-            Log In
-          </a>
         </li>
       </ul>
     </div>

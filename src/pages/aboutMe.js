@@ -40,8 +40,8 @@ const Generic = props => (
             Being the 2nd of 7 children, I can't help but be a self-starter who
             enjoys leadership roles. I hold myself to a high standard both with
             my work quality but also with how I treat others. I also hold my
-            team and bosses to those same standards so I have no desire to work
-            for any place that doesn't emphasis kindness and respect above all
+            team and bosses to those same standards, so I have no desire to work
+            for any place that doesn't emphasis kindness, respect, and peer-to-peer learning above all
             other things. Life is too short and I intend to enjoy every year of
             this life surrounded by optomistic and genuine people both inside
             the office and out.
