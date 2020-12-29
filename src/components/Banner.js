@@ -12,13 +12,6 @@ const Banner = props => (
           UI-Bootstrap, Material-UI Next, i18Next, MySQL, CouchDB/PouchDB,
           Git/Github, html, css, atom, IntelliJ, VSCode and more.
         </p>
-        {/* <ul className="actions">
-          <li>
-            <a href="#one" className="button next scrolly">
-              Enter my resume site
-            </a>
-          </li>
-        </ul> */}
       </div>
     </div>
   </section>

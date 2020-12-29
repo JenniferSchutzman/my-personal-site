@@ -13,9 +13,7 @@ const Generic = props => (
   <Layout>
     <Helmet>
       <title>Jenny Schutzman - Former Life</title>
-      {/* <meta name="description" content="Generic Page" /> */}
     </Helmet>
-
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">

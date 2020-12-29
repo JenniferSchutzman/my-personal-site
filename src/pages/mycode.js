@@ -247,7 +247,7 @@ const Landing = props => (
                 </h3>
               </header>
               <p>
-                While the majority of my code is proprietary, you can still see the regular activity and professional flow of commits.  This January will mark 3 years of daily professional coding.
+                While the majority of my code is proprietary, you can still see the regular activity and professional flow of commits.  This January will mark 3 years of full-time software development.
               </p>
               <ul className="actions">
                 <li>
