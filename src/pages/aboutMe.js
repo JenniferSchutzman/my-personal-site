@@ -23,7 +23,7 @@ const Generic = props => (
           <p>
             Shortly after moving to Mount Pleasant 3 and a half years ago, I met my husband
             to be and knew that I'd never want to leave. We just recentely
-            bought a new family home in north Mount Pleasant where I feel
+            bought our new family home in north Mount Pleasant and feel
             blessed daily to have found my own piece of heaven on this earth.
           </p>
           <p>
@@ -37,12 +37,11 @@ const Generic = props => (
             self-improvement and constant desire to learn more.
           </p>
           <p>
-            Being the 2nd of 7 children, I can't help but be a self-starter who
+            Being the 2nd of 7 children, I'm a natural self-starter who
             enjoys leadership roles. I hold myself to a high standard, both with
             my work quality and how I treat others. I also hold my
-            team and bosses to those same standards, so I have no desire to work
-            for any place that doesn't emphasize kindness, respect, and peer-to-peer learning above all
-            other things. Life is too short and I intend to enjoy every year of
+            team and bosses to those same standards, so I only wish to work for teams that emphasize kindness, respect, quality, progressive code standards, and peer-to-peer learning above all
+            other things. Life is short so I intend to enjoy every year of
             this life surrounded by optimistic and genuine people both inside
             the office and out.
           </p>
