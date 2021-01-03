@@ -52,7 +52,7 @@ class HomeIndex extends React.Component {
               <header className="major">
                 <h3>Tech community</h3>
                 <p>
-                  Learn about the CHS Women Devs group I started and also the Women in Tech Mentoring Program I resuscitated back to life.
+                  Creating CHS Women Devs and my leadership role with the CWIT Mentoring Program
                 </p>
               </header>
               <Link to="/womenDevs" className="link primary"></Link>
