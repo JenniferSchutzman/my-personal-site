@@ -8,9 +8,9 @@ const Footer = (props) => (
         <li><a href="https://www.linkedin.com/in/jenny-schutzman-b25a5069/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
         <li><a href="" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
       </ul>
-      {/* <ul className="copyright">
+      <ul className="copyright">
         <li>&copy; Jenny Schutzman</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-      </ul> */}
+      </ul>
     </div>
   </footer>
 )
