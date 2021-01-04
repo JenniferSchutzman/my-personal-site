@@ -4,10 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import books from '../assets/images/books.jpg'
 import cherryBlossom from '../assets/images/cherryBlossom.jpg'
 import columns from '../assets/images/columns.jpg'
-import irelandTownInWoods from '../assets/images/irelandTownInWoods.jpg'
 import parqueTyrona from '../assets/images/parqueTyrona.jpg'
 import theranchfields from '../assets/images/theranchfields.jpg'
 
