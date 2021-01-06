@@ -67,7 +67,7 @@ const Landing = props => (
                 The program had gone silent for a couple of years so I volunteered to take the lead and bring it back to life.
                 Working alongside CHSWIT Board Members Nina Magnesson and Valerie Sessions, I paired over 100 women in tech with peer
                 support and mentorship in their own specific neighborhoods and directly in a chosen area of interest.  We further organized a
-                large kickoff event at the College Of Charleston with breakout sessions, a full panel, a full meal, and
+                large kickoff event at the College Of Charleston with breakout sessions, a panel of 5 experts, a full meal, and
                 cocktail hour overlooking the river.  Today this program is still going strong thanks to our efforts in 2019 and am grateful to have had the opportunity to meet countless phenomenol women in tech in the Charleston area.
               </p>
               <ul className="actions">
