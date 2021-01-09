@@ -23,14 +23,14 @@ const Generic = props => (
           <p>
             Shortly after moving to Mount Pleasant 3 and a half years ago, I met my husband
             to be and knew that I'd never want to leave. We just recentely
-            bought our new family home in north Mount Pleasant and feel
-            blessed daily to have found my own piece of heaven on this earth.
+            bought our new family home in Mount Pleasant and we feel
+            blessed daily to have found our own piece of heaven on this earth.
           </p>
           <p>
             Both personally and professionaly, I'm the type of person who is
             addicted to learning and trying new things. I'm contanstly pushing
             my team to use the most progressive code standards and libraries;
-            partly because I think it's import but partly because if I'm
+            partly because I think it's important but partly because if I'm
             not being challenged and learning every week of my life, then I'm
             not being authentic myself. When software development fell into my lap, I knew
             right away that it was the perfect fit to my obsession with
