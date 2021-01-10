@@ -20,6 +20,13 @@ class HomeIndex extends React.Component {
             { name: 'keywords', content: 'sample, something' },
           ]}
         ></Helmet>
+        {/* <Helmet
+  title={title}
+>
+  {metaTags.map((metaTag, index) => (
+    <meta key={index} {...metaTag} />
+  )} */}
+{/* </Helmet> */}
 
         <Banner />
 
